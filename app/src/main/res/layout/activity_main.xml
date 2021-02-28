@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/whiteColor"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculate current age"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/blackColor"
+        android:editable="false"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter your age (in year)"
+        android:id="@+id/yearEditText"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_background_xml"
+        android:padding="12dp"
+        android:inputType="number"
+        android:singleLine="true"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/calculate_btn"
+        android:text="Calculate"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/whiteColor"
+        android:minWidth="200dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageTextView"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:minWidth="200dp"
+        android:text="TextView"
+        android:textSize="22sp"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
